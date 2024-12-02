@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: saved-jobs
+  data:
+    rest:
+      base-path: /linkedin
+springdoc:
+  api-docs:
+    path: /api-docs
+server:
+  error:
+    include-stacktrace: never
+saved-jobs:
+  linkedin:
+    url: https://www.linkedin.com/voyager/api/graphql
+    default-cluster: 8832876bc08b96972d2c68331a27ba76
